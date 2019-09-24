@@ -1,0 +1,22 @@
+{
+  "name": "lab-class07",
+  "version": "1.0.0",
+  "description": "## Project Name",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philfitch-401-advanced-javascript/lab-class07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philfitch-401-advanced-javascript/lab-class07/issues"
+  },
+  "homepage": "https://github.com/philfitch-401-advanced-javascript/lab-class07#readme"
+}
