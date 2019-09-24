@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "_id": 2,
+      "name": "coniferous",
+      "display_name": "evergreen",
+      "description": "keeps foliage year-round"
+    },
+    {
+      "name": "deciduous",
+      "display_name": "deciduous",
+      "description": "leaves fall annually",
+      "_id": 1
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "coniferous",
+      "name": "Thuja plicata",
+      "display_name": "Western red cedar",
+      "description": "green"
+    },
+    {
+      "category": "coniferous",
+      "name": "Tsuga heterophylla",
+      "display_name": "Western hemlock",
+      "description": "green",
+      "_id": 2
+    },
+    {
+      "category": "coniferous",
+      "name": "Picea sitchensis",
+      "display_name": "Sitka Spruce",
+      "description": "green",
+      "_id": 3
+    },
+    {
+      "category": "deciduous",
+      "name": "Quercus rubra",
+      "display_name": "Red oak",
+      "description": "green",
+      "_id": 4
+    },
+    {
+      "category": "deciduous",
+      "name": "Juglans regia",
+      "display_name": "Walnut",
+      "description": "green",
+      "_id": 5
+    },
+    {
+      "category": "deciduous",
+      "name": "Acer pseudoplatanus",
+      "display_name": "Sycamore",
+      "description": "green",
+      "_id": 6
+    }
+  ]
+}
