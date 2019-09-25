@@ -1,0 +1,337 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "defaultTitle",
+    "description": "defaultDescription",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/products/7": {
+      "delete": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/categories/2": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "_id": {
+                    "type": "integer"
+                  },
+                  "display_name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"_id\": 2,\n    \"name\": \"coniferous\",\n    \"display_name\": \"evergreen\",\n    \"description\": \"keeps foliage year-round\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/categories/3": {
+      "delete": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/products/6": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "_id": {
+                    "type": "integer"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "display_name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"category\": \"deciduous\",\n    \"name\": \"Acer pseudoplatanus\",\n    \"display_name\": \"Sycamore\",\n    \"description\": \"green\",\n    \"_id\": 6\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/categories": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "display_name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"name\": \"Annual\",\n    \"display_name\": \"Annual\",\n    \"description\": \"dies back to ground each year\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/products": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "display_name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"category\": \"coniferous\",\n    \"name\": \"Abies procera\",\n    \"display_name\": \"Noble fir\",\n    \"description\": \"green\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    }
+  }
+}

@@ -1,12 +1,12 @@
-# LAB - 
+# LAB - class 07
 
-## Project Name
+## Simple api
 
-### Author: Student/Group Name
+### Author: Phil Fitch
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/philfitch-401-advanced-javascript/lab-class07/pull/1)
+* [travis](https://travis-ci.com/philfitch-401-advanced-javascript/lab-class07)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
